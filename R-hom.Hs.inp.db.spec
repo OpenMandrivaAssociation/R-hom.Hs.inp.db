@@ -11,10 +11,9 @@ URL:              http://bioconductor.org/packages/release/data/annotation/html/
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-methods R-AnnotationDbi 
-Requires:         R-methods R-AnnotationDbi 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-AnnotationDbi
-BuildRequires:    R-methods R-AnnotationDbi 
+Requires:         R-methods R-AnnotationDbi
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-AnnotationDbi
 
 %description
 Homology information for Homo Sapiens from Inparanoid assembled using data
