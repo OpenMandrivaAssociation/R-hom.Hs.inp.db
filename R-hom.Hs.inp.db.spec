@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.6.1
-Release:          2
+Version:          2.9.1
+Release:          1
 Summary:          Homology information for Homo Sapiens from Inparanoid
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/hom.Hs.inp.db_2.9.1.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-methods R-AnnotationDbi
@@ -46,3 +46,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/extdata
 %{rlibdir}/%{packname}/help
+
