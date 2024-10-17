@@ -7,7 +7,7 @@ Release:          2
 Summary:          Homology information for Homo Sapiens from Inparanoid
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
